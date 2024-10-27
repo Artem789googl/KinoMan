@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <header class="section_header">
+        <div class="container block">
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.svg" alt="логотип" class="logo__img">
+            </a>
+    </header>
+    <!-- /.scetion_header -->
+
+    <form class = "section_registr" action="registr.php">
+        <div class = "container reg__block">
+            <h1 class="reg__tittle">Войти</h1>
+            <div class="reg__form">
+                <p class="reg__text">Электронная почта или телефон или логин</p>
+                <input type="text" class="input reg_input" name = "contact">
+                <p class="reg__text">Пароль</p>
+                <input type="text" class="input reg_input" name = "password">
+            </div>
+
+            <div class="reg__foot">
+                <button class="reg__button">
+                    Войти
+                </button>
+                <a class="reg__exittext" href="registr.html">
+                    Зарегестрироваться
+                </a>
+                <!-- /.button-reg__button -->
+            </div>
+        </div>
+    </form>
+
+    
+    <footer class="section_footer">
+        <div class="container footer_block">
+            <nav class="navigation__footer">
+                <a href="#" class="nav-item">Главная</a>
+                <a href="#" class="nav-item">Новости</a>
+                <a href="#" class="nav-item">Вакансии</a>
+                <a href="#" class="nav-item">Контакты</a>
+            </nav>
+            <!-- /.navigation__footer -->
+            <hr class = "line__footer">
+            <!-- /.logo -->
+            <div class="info__footer">
+                <a href="../index.html" class="logo">
+                    <img src="../img/logo.svg" alt="логотип" class="logo__img">
+                </a>
+                <a href="#main" class="prava__foot">
+                    Все права защищены © 2024–2025 «CinemaStar»
+                </a>
+                <div class="socails">
+                    <a href="#" class="social-link">
+                        <img src="../img/VK.svg" alt="социальная сеть" class="social-img">
+                    </a>
+                    <!-- /.social-link -->
+                    <a href="#" class="social-link">
+                        <img src="../img/Telegram.svg" alt="социальная сеть" class="social-img">
+                    </a>
+                    <!-- /.social-link -->
+                </div>
+            </div>
+
+             <!-- /.socails -->
+
+        </div>
+
+    </footer>
+    <!-- /.section_footer -->
+</body>
+</html>
