@@ -15,103 +15,109 @@
             <a href="../index.html" class="logo">
                 <img src="../img/logo.svg" alt="логотип" class="logo__img">
             </a>
+            <div class = "buttons">
+                <a href="registr.html" class="button button__man">
+                </a>
+                <a class="button button__cart">
+                </a>
+            </div>
     </header>
     <!-- /.scetion_header -->
 
     <section class="section_info_film">
-        <div class="container">
+        <div class="container block_film">
             <div class="tittle_info">
-                <img src="../img/Cat.jpg" alt="ФотоФильма" class="img_info">
+                <img src="../img/Cat.png" alt="ФотоФильма" class="img_info">
                 <div class="text_film">
                 <h1 class = "text_tittle">Кот-призрак Андзу</h1>
-                <nav class="text_desc1">
-                    Год выпуска: 2024 <br>
-                    Производство: Япония <br>
-                    Режиссёр: Ёко Куно ,Нобухиро Ямасита <br>
-                    Продолжительность: 1ч 37м
-                </nav>
-                <p class = "text_desc2">
-                    «Кот-призрак Андзу» – адаптация манги Такаси Имасиро – история дружбы между Карин, сильной духом девочкой, которую отправили жить к своему дедушке-монаху в японскую деревню, и Андзу, непредсказуемым призрачным котом, который становится ее опекуном.  В японской мифологии «бакэнэко», или призрачные коты — существа, которые обладают необыкновенными способностями: умеют создавать огненные шары, ходить на задних лапах и иногда даже принимают облик своего хозяина. 
-                </p>
+                <div class="rectungleGray rectVosr">
+                    <nav class="textvosr">
+                        12+
+                    </nav>
                 </div>
-            <!-- /.tittle_info -->
-            
+                <!-- /.rectungleVosr -->
+                <div class="text_desc1">
+                    <nav class="item_text_desc1">
+                        год выпуска: 2024
+                    </nav>
+                    <!-- /.item_text_desc1 -->
+                    <nav class="item_text_desc1">
+                        производство: Япониия
+                    </nav>
+                    <!-- /.item_text_desc1 -->
+                    <nav class="item_text_desc1">
+                        режиссёр:
+                    </nav>
+                    <!-- /.item_text_desc1 -->
+                    <nav class="item_text_desc1">
+                        продолжительность: 160 минут
+                    </nav>
+                    <!-- /.item_text_desc1 -->
+                </div>
+                <!-- /.text_desc1 -->
+                <button class="button open_trailler">
+                    Смотреть трейлер
+                 </button>
+                 <!-- /.button opentrailer -->
+                </div>
+           
+             
             </div>
-            <!-- /.text_film -->
+            <!-- /.tittle_info -->
+            <div class="block_desc2">
+                <p class = "text_desc2">
+                о фильме <br>
+                        <br>
+                «Кот-призрак Андзу» – адаптация манги Такаси Имасиро – история дружбы между Карин, сильной духом девочкой, которую отправили жить к своему дедушке-монаху в японскую деревню, и Андзу, непредсказуемым призрачным котом, который становится ее опекуном.  В японской мифологии «бакэнэко», или призрачные коты — существа, которые обладают необыкновенными способностями: умеют создавать огненные шары, ходить на задних лапах и иногда даже принимают облик своего хозяина. 
+                </p>
+            </div>
             <div class="seans">
                 <div class="seans_tittleSel">
                     <h2 class="seans_title">
-                        Сенас
+                        сеансы
                     </h2>
-                      <select class = "sel_seans" name="city" id="city-select">
-                        <option value="">-- Сеанс --</option>
-                        <option value="1">18:00</option>
-                        <option value="2">19:00</option>
-                        <option value="3">20:00</option>
-                      </select>
+                    <div class="seans_information">
+                        <nav class="seans_date">
+                            15.04.2024
+                        </nav>
+                        <div class="rect_seans">
+                            <button class="button rectungleGray itemtime_1">
+                                17:00
+                            </button>
+                            <button class="button rectungleGray itemtime_1">
+                                18:00
+                            </button>
+                            <button class="button rectungleGray itemtime_1">
+                                19:00
+                            </button>
+                        </div>
+                        <!-- /.recseans -->
+                    </div>
+                    <!-- /.seans_information -->
                 </div>
                 <!-- /.seans_titte -->
-                
-                <div class="mesto">
-                    <div class="zal">
-                        <nav class = "text_mesto">Зал</nav>
-                      <select name="city" id="city-select">
-                        <option value="">-- Зал --</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="3">4</option>
-                      </select>
-                    </div>
-                    <div class="ryad">
-                        <nav class = "text_mesto">Ряд</nav>
-                      <select name="city" id="city-select">
-                        <option value="">-- Ряд --</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="3">4</option>
-                      </select>
-                    </div>
-                    <div class="mesto_in_ryad">
-                        <nav class = "text_mesto">Место</nav>
-                      <select name="city" id="city-select">
-                        <option value="">-- Место --</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="3">4</option>
-                      </select>
-                    </div>
-                    <!-- /.mesto_in_ryad -->
-                    <button class="reg__button cartin_button">
-                        Добавить в корзину
-                    </button>
-                </div>
-
             </div>
-            <!-- /.seans -->
         </div>
     </section>
 
     <footer class="section_footer">
         <div class="container footer_block">
-            <nav class="navigation__footer">
-                <a href="#" class="nav-item">Главная</a>
-                <a href="#" class="nav-item">Новости</a>
-                <a href="#" class="nav-item">Вакансии</a>
-                <a href="#" class="nav-item">Контакты</a>
-            </nav>
-            <!-- /.navigation__footer -->
-            <hr class = "line__footer">
-            <!-- /.logo -->
+            <a href="../index.html" class="logo">
+                <img src="../img/logo.svg" alt="логотип" class="logo__img">
+            </a>
             <div class="info__footer">
-                <a href="../index.html" class="logo">
-                    <img src="../img/logo.svg" alt="логотип" class="logo__img">
-                </a>
+                <nav class="navigation__footer">
+                    <a href="../index.html" class="nav-item">главная</a>
+                    <a href="#" class="nav-item">новости</a>
+                    <a href="#" class="nav-item">контакты</a>
+                </nav>
+                <hr class = "line__footer">
                 <a href="#main" class="prava__foot">
                     Все права защищены © 2024–2025 «CinemaStar»
                 </a>
+            </div>
+
+            <div class="info__footer__message">
                 <div class="socails">
                     <a href="#" class="social-link">
                         <img src="../img/VK.svg" alt="социальная сеть" class="social-img">
